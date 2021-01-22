@@ -81,6 +81,11 @@ p {
           align-items: center;
   background-color: #DA1B2B;
   padding: 13px 0;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
 .nav-container .logo-r53 {

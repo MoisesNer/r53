@@ -98,7 +98,9 @@ p {
     align-items: center;
     background-color: $amaranth;
     padding: 13px 0;   
-
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
     .logo-r53{
         font-weight: bold;
         font-size: 1.2rem;
