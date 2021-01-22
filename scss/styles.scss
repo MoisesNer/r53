@@ -101,6 +101,7 @@ p {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
+
     .logo-r53{
         font-weight: bold;
         font-size: 1.2rem;
@@ -398,8 +399,8 @@ footer{
                 height: 100vh;
                 width: 100%;
                 flex-direction: column;
-                clip-path: circle(100px at 90% -10%);
-                -webkit-clip-path: circle(100px at 90% -10%);
+                clip-path: circle(10px at 90% -10%);
+                -webkit-clip-path: circle(10px at 90% -10%);
                 transition: all 1s ease-out;
                 pointer-events: none;
                 // justify-content: space-evenly;
